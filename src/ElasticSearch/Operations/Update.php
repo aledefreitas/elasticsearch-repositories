@@ -1,10 +1,6 @@
 <?php
 /**
- * VIVAPETS
- *
  * @author      Alexandre de Freitas Caetano <alexandrefc2@hotmail.com>
- * @link        https://vivapets.com/
- * @copyright   Copyright (c): Vivapets
  */
 
 namespace Aledefreitas\EloquentRepositories\ElasticSearch\Operations;
