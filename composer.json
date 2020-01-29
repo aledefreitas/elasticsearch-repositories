@@ -19,7 +19,7 @@
         "laravel/helpers": "*",
         "aledefreitas/eloquent-repositories": "^1.0",
         "illuminate/pagination": "*",
-        "aledefreitas/scout-elasticsearch-driver": "dev-master"
+        "aledefreitas/scout-elasticsearch-driver": "^4.1"
     },
     "autoload": {
        "psr-4": {
