@@ -1,0 +1,29 @@
+{
+    "name": "aledefreitas/elasticsearch-repositories",
+    "description": "Implementation of `aledefreitas/eloquent-repositories` using ElasticSearch as backend",
+    "type": "library",
+    "license": "APACHE2.0",
+    "authors": [
+        {
+            "name": "Alexandre Caetano",
+            "email": "alexandrefc2@hotmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/aledefreitas/scout-elasticsearch-driver.git"
+        }
+    ],
+    "require": {
+        "laravel/helpers": "*",
+        "aledefreitas/eloquent-repositories": "^1.0",
+        "illuminate/pagination": "*",
+        "aledefreitas/scout-elasticsearch-driver": "dev-master"
+    },
+    "autoload": {
+       "psr-4": {
+           "Aledefreitas\\EloquentRepositories\\": "src/"
+       }
+   }
+}
