@@ -2,7 +2,7 @@
     "name": "aledefreitas/elasticsearch-repositories",
     "description": "Implementation of `aledefreitas/eloquent-repositories` using ElasticSearch as backend",
     "type": "library",
-    "license": "APACHE2.0",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "Alexandre Caetano",
@@ -19,7 +19,7 @@
         "laravel/helpers": "*",
         "aledefreitas/eloquent-repositories": "^1.0",
         "illuminate/pagination": "*",
-        "aledefreitas/scout-elasticsearch-driver": "^4.1"
+        "aledefreitas/scout-elasticsearch-driver": "^4.1.1"
     },
     "autoload": {
        "psr-4": {
